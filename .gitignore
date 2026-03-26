@@ -1,0 +1,22 @@
+# R
+.Rhistory
+.Rdata
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (regeneratable)
+figures/main/*.png
+figures/main/*.pdf
+figures/supplementary/*.png
+figures/supplementary/*.pdf
+tables/main/*.docx
+tables/supplementary/*.docx
+
+# Temporary
+*.tmp
+*~

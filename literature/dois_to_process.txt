@@ -1,0 +1,27 @@
+# DOIs to process for event extraction
+# Priority order: highest priority first
+# Mark with # DONE when extracted
+
+# PRIORITY 1: Comprehensive event tables
+# Hallegraeff et al. 2023 — GlobalHAB Fish-Killing White Paper
+https://unesdoc.unesco.org/ark:/48223/pf0000387393
+
+# PRIORITY 2: Regional status reports (Harmful Algae 2021 special issue)
+10.1016/j.hal.2021.101989   # Karlson — Northern Europe
+10.1016/j.hal.2020.101787   # Sakamoto — East Asia
+10.1016/j.hal.2020.101920   # Álvarez — Latin America
+10.1016/j.hal.2021.101975   # Anderson — United States
+10.1016/j.hal.2020.101843   # Zingone — Mediterranean
+10.1016/j.hal.2020.101848   # Hallegraeff — Australia/NZ
+10.1016/j.hal.2020.101924   # Yñiguez — Philippines
+
+# PRIORITY 3: Species-specific with event data
+10.1016/j.hal.2021.102070   # Lum — Chattonella 50 years
+10.1016/j.hal.2020.101873   # Chinain — Ciguatera global review
+10.1016/j.hal.2023.102515   # Yu — China HAB history
+
+# PRIORITY 4: Case studies
+10.1016/j.scitotenv.2020.144383  # Mardones — Chile 2016
+10.3390/toxins17010035            # Davidson — Scotland risk assessment
+10.1007/BF02804908                # Hoagland — US economic effects
+10.1016/j.jenvman.2024.120645    # Díaz — HAB economic valuation
