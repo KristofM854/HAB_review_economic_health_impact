@@ -213,3 +213,45 @@ This file documents ambiguities, decisions, and clarifications made during data 
 - First major NSP event outside Florida.
 - $24M+ economic losses from shellfish closures.
 - Large persistent bloom lasted fall 1987 through winter 1988.
+
+### PHL_2013_001 — Philippines 2013 Western Samar PSP
+- 31 cases, 2 deaths from green mussel broth consumption.
+- Saxitoxin confirmed in seawater (Pyrodinium bahamense) and mussels.
+- Same region as first 1983 Philippine PSP; cumulative 1985-2018: 2,555 cases, 165 deaths.
+
+### GBR_2013_001 — Shetland 2013 Dinophysis DSP
+- 70+ people reported symptoms; actual number likely higher.
+- Rapid toxin accumulation within <1 week monitoring window led to contaminated mussels being sold.
+- £1.37M/year estimated annual DSP losses for Scottish shellfish; econometric model.
+
+### USA_2018_002 — Florida Red Tide Tourism ($2.7B)
+- Separate from USA_2018_001 (same bloom, economic quantification entry).
+- $2.7B tourism loss from spline regression model on lodging/restaurant revenue data.
+- Represents potential "billion-dollar disaster" HAB category.
+
+### AUS_2012_001 — Tasmania 2012 G. catenatum
+- Largest and most significant toxic bloom in Tasmania on record.
+- ~AUD $23M total economic loss from prolonged shellfish closures.
+- G. catenatum likely introduced via ship ballast water from Japan/Korea post-1972.
+
+### OMN_2008_001 — Oman 2008 Desalination
+- Barka desalination plant ceased operations for 55 days.
+- Separate entry from ARE_2008_001 (same bloom, different country perspective).
+- RO 330,000 + RO 140,000 in documented plant losses (later events).
+
+### NOR_1998_001 and DNK_2019_001 — Pseudochattonella events
+- Both from GlobalHAB 2023 Table 1.1; $1.4M USD each.
+- Limited detail available; included to document geographic spread of Pseudochattonella problem.
+
+### NZL_2019_001 — New Zealand Pseudochattonella
+- 200 tonnes / 15% of stock from GlobalHAB Table 1.1.
+- King salmon (Chinook) industry in Marlborough Sounds affected.
+
+### JPN_1980_001 — Japan 1980s Heterosigma
+- $135M cumulative 1980-1990 from GlobalHAB Table 1.1.
+- Year set to 1985 as mid-decade representative; extraction confidence low.
+
+### USA_2005_002 — Florida 2005 Red Tide Health Costs
+- Quantified health cost methodology from Hoagland et al. 2014.
+- Counterfactual analysis: ER visits vs K. brevis cell counts; 6 SW FL counties.
+- Annual costs $60K-$700K; exceeded $1M in severe 2005 bloom.
