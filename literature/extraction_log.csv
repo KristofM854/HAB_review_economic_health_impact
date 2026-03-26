@@ -14,3 +14,15 @@ doi,title,first_author,year,status,events_extracted,extraction_date,notes
 10.1016/j.hal.2021.101975,"US HAB status",Anderson,2021,extracted,1,2026-03-26,USA_2015_001
 10.1016/j.scitotenv.2022.158967,"Chile Heterosigma 2021",NA,2022,extracted,1,2026-03-26,CHL_2021_001
 10.1007/s12562-021-01524-7,"Japan HAB control strategies",Imai,2021,extracted,0,2026-03-26,Supporting data for JPN_2010_001
+10.1289/ehp.00108s1133,"Marine algal toxins origins health effects",Van Dolah,2000,extracted,2,2026-03-26,"GTM_1987_001; ESP_1981_001"
+10.1016/j.hal.2020.101924,"Philippines HAB status",Yñiguez,2021,extracted,1,2026-03-26,PHL_1983_001
+10.1056/NEJM199006213222504,"Domoic acid outbreak PEI Canada",Perl,1990,extracted,1,2026-03-26,CAN_1987_001
+10.1016/j.hal.2020.101873,"Ciguatera global review",Chinain,2021,extracted,2,2026-03-26,"PYF_2007_001; ESP_2004_001"
+10.1016/j.hal.2020.101843,"Mediterranean HAB status",Zingone,2021,extracted,1,2026-03-26,ITA_2005_001
+10.1016/j.hal.2009.08.002,"Arabian Gulf 2008-2009 Cochlodinium",Richlen,2010,extracted,1,2026-03-26,ARE_2008_001
+10.1016/j.hal.2008.11.009,"Karenia brevis Florida historical",Steidinger,2009,extracted,1,2026-03-26,USA_1996_001
+10.1016/j.hal.2009.01.001,"K. mikimotoi Scotland Ireland benthic impacts",Davidson,2009,extracted,2,2026-03-26,"IRL_2005_001; GBR_2006_001"
+10.1016/j.hal.2020.101773,"Benguela HABs eastern boundary upwelling",Pitcher,2021,extracted,2,2026-03-26,"ZAF_1994_001; ZAF_2022_001"
+10.3389/fmars.2018.00454,"Baja California tuna kill Chattonella",Garcia-Mendoza,2018,extracted,1,2026-03-26,MEX_2016_001
+10.1016/j.hal.2021.101975,"US HAB status (additional extraction)",Anderson,2021,extracted,3,2026-03-26,"USA_2005_001; USA_1998_001; USA_1987_001"
+10.1016/j.hal.2021.101989,"Northern Europe HABs (additional extraction)",Karlson,2021,extracted,1,2026-03-26,NOR_1984_001

@@ -99,3 +99,117 @@ This file documents ambiguities, decisions, and clarifications made during data 
 - Additional $40M in tourism losses in Washington state.
 - Driven by unprecedented marine heatwave ("the Blob").
 - Human syndrome set to ASP (domoic acid) though no major human outbreak occurred due to closures.
+
+---
+
+## Phase 2 Extraction — Gap-Filling (2026-03-26)
+
+### GTM_1987_001 — Guatemala 1987 PSP
+- 187 cases, 26 deaths — highest PSP case fatality rate (14%) in modern literature.
+- Children <6 had 50% fatality rate. Clam Amphichaena kindermani was vector.
+- First large PSP outbreak recognized in Guatemala.
+- Source: Van Dolah 2000 (review); original case study: Rodrigue et al. 1990.
+
+### PHL_1983_001 — Philippines 1983 Pyrodinium PSP
+- First HAB occurrence in the Philippines; Pyrodinium bahamense bloom.
+- Cumulative 1983-2005: 2,161 cases and 123 deaths across 135 bloom events in 27 coastal waters.
+- The 21 deaths figure used here refers to the initial 1983 event cluster; exact count may be higher.
+- $5M USD economic loss is approximate. Philippines is hardest-hit country for PSP globally.
+
+### CAN_1987_001 — Canada PEI 1987 Domoic Acid
+- Discovery event for amnesic shellfish poisoning (ASP).
+- 107 confirmed cases, death toll varies: 3 (NEJM original) vs 4 (later reviews).
+- Used 4 as most commonly cited figure in recent literature.
+- Pseudo-nitzschia multiseries (then Nitzschia pungens f. multiseries) identified as source.
+- Mussel DA peaked at 1500 µg/g wet weight — regulatory limit now 20 µg/g.
+
+### PYF_2007_001 — French Polynesia Ciguatera
+- Used 2007 as representative year for endemic burden; ciguatera is chronic/recurrent.
+- Incidence rates: 165-251 per 10,000 in remote archipelagos (Tuamotu, Australes, Marquesas).
+- 500+ cases/year is conservative; only 2-10% of cases reported to health authorities.
+- Gambierdiscus toxicus sensu lato; multiple species now recognized.
+
+### ESP_2004_001 — Canary Islands First Ciguatera
+- First confirmed CFP in European waters.
+- All outbreaks since 2004 associated with large amberjack consumption from sport fishing.
+- ~12 cases/year average — small numbers but significant as emerging range expansion.
+- Linked to ocean warming and range expansion of Gambierdiscus.
+
+### USA_2005_001 — New England 2005 Alexandrium Red Tide
+- Largest PSP closure event since 1972 in New England.
+- $18M lost shellfish sales in MA; $4.9M in ME. With multiplier (4.5x), total ~$46M.
+- 40,000 km² offshore closure unprecedented.
+- Categorized as economic — no human cases due to effective monitoring/closures.
+
+### ITA_2005_001 — Genoa 2005 Ostreopsis
+- 209 people sought medical help from aerosolized ovatoxin exposure.
+- Benthic dinoflagellate; not a planktonic bloom. Toxins aerosolized by wave action.
+- First recognition that benthic HABs pose health risks in urbanized temperate areas.
+- Triggered Italian Ministry of Health guidelines for Ostreopsis monitoring.
+
+### ARE_2008_001 — Arabian Gulf 2008-2009 Cochlodinium
+- 8-month bloom; 1,200 km of coastline affected.
+- At least 5 UAE desalination plants shut down — SWRO shutdowns lasted up to 4 months.
+- 600+ tonnes of fish killed (conservative estimate).
+- Water security crisis — some regions had only 1-2 day freshwater reserves.
+- Key reference: Richlen et al. 2010.
+
+### USA_1996_001 — Florida 1996 Manatee Die-off
+- 149+ manatees killed = approximately 10% of the endangered population.
+- Brevetoxin confirmed in lungs and stomach contents.
+- Exposure via both inhalation (surfacing to breathe) and ingestion (food web).
+- Distinct from USA_2018_001 (which is the 2017-18 red tide).
+
+### IRL_2005_001 — Ireland 2005 K. mikimotoi
+- Considered exceptional in scale, persistence, and impact.
+- Widespread benthic and pelagic mortality along Atlantic seaboard.
+- Latest in series of Irish K. mikimotoi events since first recorded in 1976.
+
+### GBR_2006_001 — Scotland 2006 K. mikimotoi
+- Large prolonged bloom June-September 2006.
+- Extensive benthic mortality (annelids, molluscs) but no farmed fish deaths.
+- Bloom transported by Hebridean slope current; cells injected onto shelf by eddies.
+- Key reference: Davidson et al. 2009.
+
+### ZAF_1994_001 — South Africa 1994 Black Tide
+- Dense dinoflagellate bloom in St Helena Bay; bacterial decomposition → H2S production.
+- 95% reduction of intertidal biomass; 60 tonnes rock lobster killed.
+- Worst recorded marine mortality on South African coast.
+- "Black tide" term from dark surface waters due to hydrogen sulphide.
+
+### ZAF_2022_001 — South Africa 2022 Lobster Walk-out
+- ~500 tonnes of rock lobster stranded on West Coast beaches.
+- Anoxia from red tide decomposition drove lobsters ashore.
+- Species already heavily depleted from overfishing; walk-outs are recurring.
+- Extraction confidence low: exact species identification and economic quantification lacking.
+
+### MEX_2016_001 — Baja California 2016 Tuna Kill
+- 9 die-off events May-August 2016 in Todos Santos Bay area.
+- First ichthyotoxic bloom ever recorded in this region.
+- $42M USD from insurance records of one company; total losses likely higher.
+- Linked to marine heatwave: 3°C surface temperature anomalies in 2015.
+- Garcia-Mendoza et al. 2018 (Frontiers in Marine Science).
+
+### ESP_1981_001 — Spain 1981 Dinophysis DSP
+- Early 1980s Galicia DSP outbreaks; ~5000 cases estimated (non-fatal but incapacitating).
+- Case count is approximate — DSP often underreported and misdiagnosed as gastroenteritis.
+- D. acuta and D. acuminata both contribute; D. acuta main risk in autumn.
+- Galician mussel industry (Rías Baixas) is primary economic victim.
+
+### USA_1998_001 — California 1998 Sea Lion Mortality
+- 400+ California sea lions died from domoic acid poisoning.
+- First documented marine mammal mortality from domoic acid.
+- Pseudo-nitzschia australis bloom; toxin transferred via anchovy food web.
+- Led to establishment of marine mammal DA monitoring programs.
+
+### NOR_1984_001 — Norway 1984 First DSP
+- First DSP event described in Norway (autumn 1984).
+- ~100 cases estimated; triggered 25+ years of Dinophysis monitoring.
+- D. acuta main causative species; D. norvegica also contributes.
+- DSP became the main phycotoxin problem along the Norwegian coast.
+
+### USA_1987_001 — North Carolina 1987-88 NSP
+- 48 confirmed NSP cases from Ptychodiscus brevis (now K. brevis).
+- First major NSP event outside Florida.
+- $24M+ economic losses from shellfish closures.
+- Large persistent bloom lasted fall 1987 through winter 1988.
