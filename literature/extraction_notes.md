@@ -255,3 +255,84 @@ This file documents ambiguities, decisions, and clarifications made during data 
 - Quantified health cost methodology from Hoagland et al. 2014.
 - Counterfactual analysis: ER visits vs K. brevis cell counts; 6 SW FL counties.
 - Annual costs $60K-$700K; exceeded $1M in severe 2005 bloom.
+
+---
+
+## Phase 3 Extraction — Targeted Gap-Filling (2026-03-26)
+
+### MYS_2014_001 — Malaysia 2014 Karlodinium Johor Strait
+- ~50,000 cage-cultured fish killed on 11 Feb 2014 in West Johor Strait.
+- K. australe at 0.31-2.34 × 10⁶ cells/L (68-99% of phytoplankton).
+- $2.6M USD from GlobalHAB Table 1.1.
+- First report of K. australe mass fish mortality; recurred 2015.
+- Many small-scale aquaculturists ceased operations after event.
+- Lim et al. 2014 (Harmful Algae 40:51-62).
+
+### CHN_1989_001 — China 1989 Bohai Sea Gymnodinium
+- 275 km² bloom area; 240 million RMB (~$30M USD) economic loss.
+- Most serious HAB disaster of 1980s China.
+- Species identified as Gymnodinium sp. (exact species uncertain).
+- From Yu et al. 2023.
+
+### CHN_1998_001 — China 1998 Pearl River Estuary K. mikimotoi
+- First K. mikimotoi bloom recorded in China.
+- Over 0.3 billion HKD in economic losses in Dapeng/Daya Bay area.
+- USD conversion left blank — HKD/USD rate was ~7.75 in 1998.
+- From Yu et al. 2023 and Sakamoto et al. 2021.
+
+### CHN_2015_001 — China 2015 Phaeocystis Nuclear Plant Blockage
+- Categorized as "economic" — unique infrastructure impact type.
+- Mucilaginous P. globosa colonies blocked cooling water filtration of Fangchenggang Nuclear Power Plant.
+- First documented case of HAB threatening nuclear power safety globally.
+- Bloom Dec 2014 - Feb 2015 in Beibu Gulf.
+- PAC-MC (modified clay) successfully used for mitigation.
+- No specific dollar figure for economic loss; categorized as major infrastructure disruption.
+
+### NIC_2005_001 — Nicaragua 2005 Pyrodinium PSP
+- 45 cases, 1 death on Pacific coast during October 2005 bloom.
+- 10% of Maderas Negras Island population affected.
+- Concha negra clams were the vector; saxitoxin confirmed.
+- First Caribbean/Central America PSP event in catalog.
+- Ching et al. 2015 (BMC Research Notes).
+
+### CRI_1989_001 — Costa Rica 1989 Pyrodinium PSP
+- ~10 confirmed cases from consuming Spondylus calcifer clams on Pacific coast.
+- No deaths reported. Symptoms: numbness, leg paralysis, respiratory distress.
+- P. bahamense found in clam intestine.
+- Exact case count uncertain; extraction confidence medium.
+
+### IND_2021_001 — India 2021 Gulf of Mannar Noctiluca
+- 7.2 tonnes total fish mortality; 0.96 t commercially important fish valued at $5.5M.
+- ~9 million damselfish killed (0.83 tonnes) — largest damselfish mass mortality from N. scintillans ever.
+- 43 fish genera affected across Pamban to Mundal region.
+- Bloom caused hypoxia and ammonia toxicity; NOT direct toxin production.
+- Also fills GAP 3 (ecological cascade): shellfishes, sea anemones, sea horses, polychaetes also killed.
+- Coral reef impacts documented separately in 2019 event (71% mortality in Acropora/Montipora/Pocillopora).
+- First India event in catalog; fills critical South Asia gap.
+
+### MAR_1994_001 — Morocco 1994 PSP Intoxication
+- 23 hospitalized, 4 deaths from PSP.
+- PSP toxins in mussels at Oualidia Lagoon reached 2,600 µg STX equiv/kg (regulatory limit 800).
+- G. catenatum identified as causative species.
+- First NW Africa/Morocco event in catalog.
+- First case of poisoning in Morocco from algal toxins was 1966; monitoring established 1992.
+
+### MYS_2005_001 — Malaysia 2005 Sabah Cochlodinium
+- M. polykrikoides bloom in Kota Kinabalu, Sabah waters.
+- Fish kills in cage aquaculture and wild populations.
+- Economic losses not quantified in available sources.
+- Bloom extended from west coast Sabah southward; recurred 2006.
+- Extraction confidence low due to limited quantitative data.
+
+### IDN_1988_001 — Indonesia 1988 Pyrodinium PSP
+- Cumulative: 427 PSP cases and 17 deaths from Indonesia (1988-1999 period).
+- Third highest PSP burden in SE Asia after Philippines and Malaysia.
+- Year set to 1988 as first events reported in late 1980s.
+- Extraction confidence low: cumulative data, exact event date uncertain.
+
+### USA_2002_001 — Washington 2002-2003 Razor Clam Closure
+- $24.4M estimated expenditures from survey of 240 parties.
+- Recreational razor clam fishery generates up to $40M/yr in WA.
+- 25.8% of fishing days lost to closures 1991-2008 (23.3% domoic acid, 2.4% PSP).
+- Categorized as economic: no fish mortality, impact is fishery closure.
+- Key methodology paper: Dyson & Huppert 2010.
