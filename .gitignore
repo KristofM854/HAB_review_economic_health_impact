@@ -17,6 +17,9 @@ figures/supplementary/*.pdf
 tables/main/*.docx
 tables/supplementary/*.docx
 
+# PDFs (large files — track via manifest instead)
+literature/pdfs/*.pdf
+
 # Temporary
 *.tmp
 *~
