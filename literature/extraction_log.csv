@@ -1,0 +1,16 @@
+doi,title,first_author,year,status,events_extracted,extraction_date,notes
+10.1016/j.hal.2011.10.014,"Life cycle physiology ecology and red tide occurrences of Chattonella",Imai,2012,extracted,1,2026-03-26,JPN_1972_001
+10.1007/978-3-642-75280-3_23,"The Chrysochromulina polylepis bloom in Scandinavian waters 1988",Dahl,1989,extracted,1,2026-03-26,NOR_1988_001
+10.1016/j.hal.2021.101989,"Harmful algal blooms Northern Europe",Karlson,2021,extracted,1,2026-03-26,NOR_1991_001
+10.1016/j.hal.2016.08.002,"Pseudochattonella review",Eckford-Soper,2016,extracted,1,2026-03-26,NOR_2001_001
+10.1038/s41598-018-19461-4,"Hydroclimatic conditions trigger record HAB Chile 2016",Leon-Munoz,2018,extracted,1,2026-03-26,CHL_2016_001
+10.3389/fmars.2021.711114,"Florida red tide 2018",NA,2021,extracted,1,2026-03-26,USA_2018_001
+10.1016/j.hal.2022.102287,"Chrysochromulina leadbeateri 2019 Norway",John,2022,extracted,1,2026-03-26,NOR_2019_001
+10.1111/jfd.70162,"First Strike 2025 Norway algal bloom",Seem,2026,extracted,1,2026-03-26,NOR_2025_001
+10.1016/j.hal.2021.102070,"Chattonella in Western Pacific 50 years",Lum,2021,extracted,2,2026-03-26,"CHL_1988_001; NZL_1989_001"
+10.1016/j.hal.2020.101787,"East Asia HAB status",Sakamoto,2021,extracted,3,2026-03-26,"KOR_1995_001; JPN_2010_001; CHN_2012_001"
+10.1016/j.hal.2020.101848,"Australia/NZ HAB status",Hallegraeff,2021,extracted,1,2026-03-26,AUS_1996_001
+10.1007/s12562-015-0876-5,"Yatsushiro Sea Chattonella 2010",NA,2015,extracted,0,2026-03-26,Supporting data for JPN_2010_001
+10.1016/j.hal.2021.101975,"US HAB status",Anderson,2021,extracted,1,2026-03-26,USA_2015_001
+10.1016/j.scitotenv.2022.158967,"Chile Heterosigma 2021",NA,2022,extracted,1,2026-03-26,CHL_2021_001
+10.1007/s12562-021-01524-7,"Japan HAB control strategies",Imai,2021,extracted,0,2026-03-26,Supporting data for JPN_2010_001

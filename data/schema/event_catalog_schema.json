@@ -1,0 +1,345 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HAB Catastrophic Event Catalog Entry",
+  "description": "Schema for individual HAB event entries in the Global Catastrophic HAB Events Review",
+  "type": "object",
+  "required": [
+    "event_id", "event_category", "year", "event_status",
+    "country_iso3", "country_name", "environment_type",
+    "species_primary", "taxonomic_class",
+    "fish_affected_type",
+    "source_doi_primary", "source_type",
+    "data_quality", "extraction_confidence",
+    "extraction_date", "extraction_agent", "verification_status"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}_[0-9]{4}_[0-9]{3}$",
+      "description": "Unique identifier: {ISO3}_{YYYY}_{NNN}"
+    },
+    "event_name": {
+      "type": ["string", "null"],
+      "description": "Common name if established"
+    },
+    "event_category": {
+      "type": "string",
+      "enum": ["fish_kill", "human_health", "economic", "mixed"],
+      "description": "Primary impact type"
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2030,
+      "description": "Primary year of event"
+    },
+    "start_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "First detection/mortality (ISO 8601)"
+    },
+    "end_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Event conclusion (ISO 8601)"
+    },
+    "duration_days": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Calculated or reported duration in days"
+    },
+    "event_status": {
+      "type": "string",
+      "enum": ["resolved", "recurrent"],
+      "description": "Whether event has concluded or is recurrent"
+    },
+    "country_iso3": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "ISO 3166-1 alpha-3 country code"
+    },
+    "country_name": {
+      "type": "string",
+      "description": "Full country name"
+    },
+    "region_level1": {
+      "type": ["string", "null"],
+      "description": "State/province/county"
+    },
+    "region_level2": {
+      "type": ["string", "null"],
+      "description": "More specific region"
+    },
+    "water_body": {
+      "type": ["string", "null"],
+      "description": "Sea, bay, fjord name"
+    },
+    "lat_centroid": {
+      "type": ["number", "null"],
+      "minimum": -90,
+      "maximum": 90,
+      "description": "Latitude (decimal degrees, WGS84)"
+    },
+    "lon_centroid": {
+      "type": ["number", "null"],
+      "minimum": -180,
+      "maximum": 180,
+      "description": "Longitude (decimal degrees, WGS84)"
+    },
+    "affected_area_km2": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Spatial extent if reported (km²)"
+    },
+    "environment_type": {
+      "type": "string",
+      "enum": ["marine_coastal", "marine_offshore", "estuarine", "brackish", "fjord"],
+      "description": "Water body type"
+    },
+    "species_primary": {
+      "type": "string",
+      "description": "Primary causative species (current accepted name)"
+    },
+    "species_primary_authority": {
+      "type": ["string", "null"],
+      "description": "Taxonomic authority"
+    },
+    "species_secondary": {
+      "type": ["string", "null"],
+      "description": "Secondary/co-occurring species"
+    },
+    "species_tertiary": {
+      "type": ["string", "null"],
+      "description": "Additional species if relevant"
+    },
+    "taxonomic_class": {
+      "type": "string",
+      "enum": [
+        "Dinophyceae", "Raphidophyceae", "Dictyochophyceae",
+        "Prymnesiophyceae", "Bacillariophyceae", "Cyanophyceae", "Other"
+      ],
+      "description": "Taxonomic class of primary species"
+    },
+    "species_notes": {
+      "type": ["string", "null"],
+      "description": "Taxonomic uncertainties, synonyms"
+    },
+    "max_cell_density": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Maximum reported cell density (cells/L)"
+    },
+    "cell_density_depth_m": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Depth of cell density measurement (m)"
+    },
+    "max_chlorophyll_ug_L": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Maximum chlorophyll-a if reported (µg/L)"
+    },
+    "bloom_visible": {
+      "type": ["boolean", "null"],
+      "description": "Water discoloration observed?"
+    },
+    "bloom_color": {
+      "type": ["string", "null"],
+      "description": "Reported color of bloom"
+    },
+    "fish_affected_type": {
+      "type": "string",
+      "enum": ["farmed", "wild", "both", "unknown"],
+      "description": "Type of fish affected"
+    },
+    "fish_species_affected": {
+      "type": ["string", "null"],
+      "description": "Comma-separated list of affected fish species"
+    },
+    "fish_killed_n": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Number of individual fish killed"
+    },
+    "fish_killed_n_qualifier": {
+      "type": ["string", "null"],
+      "enum": ["exact", "estimated", "minimum", "approximate", null],
+      "description": "Precision of fish count"
+    },
+    "fish_killed_tonnes": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Biomass killed (metric tonnes)"
+    },
+    "fish_killed_tonnes_qualifier": {
+      "type": ["string", "null"],
+      "enum": ["exact", "estimated", "minimum", "approximate", null],
+      "description": "Precision of biomass estimate"
+    },
+    "farms_affected_n": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Number of aquaculture sites affected"
+    },
+    "fish_mortality_notes": {
+      "type": ["string", "null"],
+      "description": "Additional context on fish mortality"
+    },
+    "human_cases": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Number of human illness cases"
+    },
+    "human_deaths": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Number of human fatalities"
+    },
+    "human_syndrome": {
+      "type": ["string", "null"],
+      "enum": ["PSP", "DSP", "ASP", "NSP", "CFP", "AZP", "respiratory", "dermal", "other", "none", null],
+      "description": "Type of human health syndrome"
+    },
+    "human_health_notes": {
+      "type": ["string", "null"],
+      "description": "Additional context on human health impacts"
+    },
+    "ecological_impact_level": {
+      "type": ["string", "null"],
+      "enum": ["fish_only", "multi_trophic", "ecosystem_wide", null],
+      "description": "Breadth of ecological impact"
+    },
+    "wildlife_mortality": {
+      "type": ["boolean", "null"],
+      "description": "Marine mammals, seabirds, etc. affected?"
+    },
+    "wildlife_species_affected": {
+      "type": ["string", "null"],
+      "description": "List of affected wildlife species"
+    },
+    "benthic_impact": {
+      "type": ["boolean", "null"],
+      "description": "Benthic fauna/flora mortality?"
+    },
+    "ecological_notes": {
+      "type": ["string", "null"],
+      "description": "Broader ecological impacts"
+    },
+    "economic_loss_value": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Reported economic loss (original currency)"
+    },
+    "economic_loss_currency": {
+      "type": ["string", "null"],
+      "description": "ISO 4217 currency code"
+    },
+    "economic_loss_year": {
+      "type": ["integer", "null"],
+      "description": "Year of valuation"
+    },
+    "economic_loss_usd": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Converted to USD"
+    },
+    "economic_loss_type": {
+      "type": ["string", "null"],
+      "enum": ["direct", "indirect", "total", "unspecified", null],
+      "description": "Type of economic loss estimate"
+    },
+    "economic_loss_qualifier": {
+      "type": ["string", "null"],
+      "enum": ["exact", "estimated", "minimum", "range", null],
+      "description": "Precision of economic estimate"
+    },
+    "economic_sectors_affected": {
+      "type": ["string", "null"],
+      "description": "Comma-separated: aquaculture, wild_fisheries, tourism, desalination, recreation, public_health, other"
+    },
+    "fishery_closures": {
+      "type": ["boolean", "null"],
+      "description": "Were commercial fisheries closed?"
+    },
+    "beach_closures": {
+      "type": ["boolean", "null"],
+      "description": "Were beaches/recreation areas closed?"
+    },
+    "desalination_affected": {
+      "type": ["boolean", "null"],
+      "description": "Were desalination plants affected?"
+    },
+    "economic_notes": {
+      "type": ["string", "null"],
+      "description": "Methodology, inclusions/exclusions"
+    },
+    "mitigation_attempted": {
+      "type": ["boolean", "null"],
+      "description": "Were mitigation measures used?"
+    },
+    "mitigation_methods": {
+      "type": ["string", "null"],
+      "description": "Comma-separated list of methods"
+    },
+    "mitigation_effectiveness": {
+      "type": ["string", "null"],
+      "enum": ["effective", "partially_effective", "ineffective", "unknown", null],
+      "description": "Effectiveness of mitigation"
+    },
+    "monitoring_preexisting": {
+      "type": ["boolean", "null"],
+      "description": "Was HAB monitoring in place?"
+    },
+    "warning_issued": {
+      "type": ["boolean", "null"],
+      "description": "Was early warning issued?"
+    },
+    "response_notes": {
+      "type": ["string", "null"],
+      "description": "Additional context on response"
+    },
+    "source_doi_primary": {
+      "type": "string",
+      "description": "Primary literature source DOI"
+    },
+    "source_dois_secondary": {
+      "type": ["string", "null"],
+      "description": "Additional DOIs (semicolon-separated)"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["peer_reviewed", "government_report", "news", "industry", "database", "personal_comm"],
+      "description": "Type of primary source"
+    },
+    "data_quality": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "Overall data quality assessment"
+    },
+    "extraction_confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "Confidence in extracted values"
+    },
+    "extraction_date": {
+      "type": "string",
+      "format": "date",
+      "description": "When data was extracted (ISO 8601)"
+    },
+    "extraction_agent": {
+      "type": "string",
+      "enum": ["human", "claude", "claude_verified"],
+      "description": "Who/what extracted the data"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["unverified", "verified", "disputed"],
+      "description": "Verification status of entry"
+    },
+    "notes": {
+      "type": ["string", "null"],
+      "description": "Any additional context"
+    }
+  },
+  "additionalProperties": false
+}

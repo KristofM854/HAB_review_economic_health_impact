@@ -1,0 +1,156 @@
+{
+  "title": "HAB Event Catalog — Controlled Vocabularies",
+  "version": "1.0",
+  "description": "Enum values and definitions for categorical fields in the event catalog",
+  "vocabularies": {
+    "event_category": {
+      "description": "Primary impact type of the HAB event",
+      "values": {
+        "fish_kill": "Primary impact is fish mortality (farmed or wild)",
+        "human_health": "Primary impact is human illness/poisoning (PSP, DSP, CFP, etc.)",
+        "economic": "Primary impact is economic (closures, tourism) without major mortality",
+        "mixed": "Significant impacts across multiple categories"
+      }
+    },
+    "event_status": {
+      "description": "Whether the event has concluded or recurs periodically",
+      "values": {
+        "resolved": "Event has concluded",
+        "recurrent": "Annual or periodic recurrence (e.g., Florida red tides)"
+      }
+    },
+    "environment_type": {
+      "description": "Type of water body where the event occurred",
+      "values": {
+        "marine_coastal": "Nearshore marine (<50 km from coast)",
+        "marine_offshore": "Offshore marine (>50 km from coast)",
+        "estuarine": "Estuary, river mouth",
+        "brackish": "Brackish water body",
+        "fjord": "Fjord system"
+      }
+    },
+    "taxonomic_class": {
+      "description": "Taxonomic class of the primary causative species",
+      "values": {
+        "Dinophyceae": "Dinoflagellates (Karenia, Alexandrium, Margalefidinium)",
+        "Raphidophyceae": "Raphidophytes (Chattonella, Heterosigma, Fibrocapsa)",
+        "Dictyochophyceae": "Dictyochophytes (Pseudochattonella, Vicicitus)",
+        "Prymnesiophyceae": "Haptophytes (Chrysochromulina, Prymnesium, Phaeocystis)",
+        "Bacillariophyceae": "Diatoms (Pseudo-nitzschia)",
+        "Cyanophyceae": "Cyanobacteria (Trichodesmium)",
+        "Other": "Other taxonomic classes not listed above"
+      }
+    },
+    "fish_affected_type": {
+      "description": "Whether farmed, wild, or both types of fish were affected",
+      "values": {
+        "farmed": "Aquaculture only",
+        "wild": "Wild populations only",
+        "both": "Both farmed and wild",
+        "unknown": "Insufficient information to determine"
+      }
+    },
+    "qualifier": {
+      "description": "Precision qualifier for numeric values (fish_killed_n_qualifier, fish_killed_tonnes_qualifier)",
+      "values": {
+        "exact": "Precise count or measurement",
+        "estimated": "Estimate based on available data",
+        "minimum": "Known minimum; true value likely higher",
+        "approximate": "Rough approximation"
+      }
+    },
+    "economic_loss_type": {
+      "description": "What is included in the economic loss estimate",
+      "values": {
+        "direct": "Immediate mortality costs only",
+        "indirect": "Secondary impacts (tourism, processing, etc.)",
+        "total": "Combined direct + indirect",
+        "unspecified": "Not specified in source"
+      }
+    },
+    "economic_loss_qualifier": {
+      "description": "Precision qualifier for economic estimates",
+      "values": {
+        "exact": "Precise figure from official accounting",
+        "estimated": "Estimate based on available data",
+        "minimum": "Known minimum; true value likely higher",
+        "range": "Source provides a range rather than point estimate"
+      }
+    },
+    "human_syndrome": {
+      "description": "Type of human health syndrome caused by the HAB",
+      "values": {
+        "PSP": "Paralytic Shellfish Poisoning",
+        "DSP": "Diarrhetic Shellfish Poisoning",
+        "ASP": "Amnesic Shellfish Poisoning",
+        "NSP": "Neurotoxic Shellfish Poisoning",
+        "CFP": "Ciguatera Fish Poisoning",
+        "AZP": "Azaspiracid Shellfish Poisoning",
+        "respiratory": "Respiratory exposure (e.g., aerosolized brevetoxins)",
+        "dermal": "Skin contact effects",
+        "other": "Other health effects not listed above",
+        "none": "No human health impacts"
+      }
+    },
+    "ecological_impact_level": {
+      "description": "Breadth of ecological impact beyond target fish",
+      "values": {
+        "fish_only": "Impacts limited to fish mortality",
+        "multi_trophic": "Impacts across multiple trophic levels",
+        "ecosystem_wide": "Broad ecosystem disruption"
+      }
+    },
+    "mitigation_effectiveness": {
+      "description": "How effective were mitigation measures",
+      "values": {
+        "effective": "Mitigation successfully reduced impacts",
+        "partially_effective": "Some benefit but impacts still significant",
+        "ineffective": "Mitigation had no meaningful effect",
+        "unknown": "Effectiveness not assessed or reported"
+      }
+    },
+    "data_quality": {
+      "description": "Overall quality assessment of the source data",
+      "values": {
+        "high": "Peer-reviewed publication with clear methodology",
+        "medium": "Government report or peer-reviewed with some ambiguity",
+        "low": "News source, personal communication, or significant uncertainty"
+      }
+    },
+    "extraction_confidence": {
+      "description": "Confidence in the accuracy of extracted values",
+      "values": {
+        "high": "Values clearly stated in source",
+        "medium": "Values inferred or calculated from source",
+        "low": "Values uncertain, conflicting sources, or extrapolated"
+      }
+    },
+    "source_type": {
+      "description": "Type of primary source document",
+      "values": {
+        "peer_reviewed": "Published in a peer-reviewed journal",
+        "government_report": "Official government or agency report",
+        "news": "News media report",
+        "industry": "Industry report or publication",
+        "database": "Online database (e.g., HAEDAT)",
+        "personal_comm": "Personal communication"
+      }
+    },
+    "extraction_agent": {
+      "description": "Who or what performed the data extraction",
+      "values": {
+        "human": "Extracted by a human researcher",
+        "claude": "Extracted by Claude AI assistant",
+        "claude_verified": "Extracted by Claude and verified by human"
+      }
+    },
+    "verification_status": {
+      "description": "Whether the entry has been verified by a human researcher",
+      "values": {
+        "unverified": "Not yet reviewed by human",
+        "verified": "Reviewed and confirmed by human researcher",
+        "disputed": "Values questioned or under review"
+      }
+    }
+  }
+}
