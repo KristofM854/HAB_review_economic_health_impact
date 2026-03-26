@@ -8,7 +8,7 @@ Copy and paste this prompt to initiate Claude Code:
 
 I'm starting a systematic review project on global catastrophic harmful algal bloom (HAB) events for publication in *Harmful Algae*. I've prepared a detailed project specification with schema definitions and pilot data.
 
-**Project repository:** [INSERT YOUR REPO URL HERE, e.g., github.com/KristofM854/hab-catastrophic-review]
+**Project repository:** github.com/KristofM854/HAB_review_economic_health_impact
 
 **Your first tasks:**
 
