@@ -25,3 +25,23 @@ https://unesdoc.unesco.org/ark:/48223/pf0000387393
 10.3390/toxins17010035            # Davidson — Scotland risk assessment
 10.1007/BF02804908                # Hoagland — US economic effects
 10.1016/j.jenvman.2024.120645    # Díaz — HAB economic valuation
+
+# PRIORITY 5: Human health events (GAP 1)
+10.1016/j.hal.2020.101873   # Chinain — Ciguatera global review
+10.1289/ehp.00108s1133      # Van Dolah — marine algal toxins origins
+10.1016/j.envint.2014.03.016 # Hoagland — Florida red tide health costs
+10.3390/md15030072          # Friedman — ciguatera updated review
+10.1016/j.envres.2020.109111 # Soliño — global ciguatera impact
+
+# PRIORITY 6: Economic-only events (GAP 2)
+10.1016/j.hal.2009.11.003   # Dyson & Huppert — razor clam closures
+10.1007/BF02804908          # Hoagland — US economic effects
+
+# PRIORITY 7: Geographic gaps (GAP 4)
+10.1016/j.hal.2020.101843   # Zingone — Mediterranean HABs
+10.1016/j.hal.2020.101920   # Álvarez — Latin America HABs
+
+# PRIORITY 8: Ecological impacts (GAP 3)
+10.3390/toxins13070454      # Ben-Gigirey — seabirds and marine biotoxins
+10.3354/meps07853           # Gannon — Karenia brevis fish community effects
+10.1016/j.hal.2009.01.001   # Davidson — K. mikimotoi Scotland 2006

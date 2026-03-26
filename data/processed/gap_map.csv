@@ -1,0 +1,42 @@
+impact_category,region_fao,country_iso3,n_events,gap_flag,notes
+fish_kill,Northwest Pacific,JPN,2,FALSE,Well-covered (Chattonella 1972 + 2010)
+fish_kill,Northwest Pacific,KOR,2,FALSE,Margalefidinium 1995 + 2003
+fish_kill,Southeast Pacific,CHL,4,FALSE,Well-covered (1988/2016/2021 events)
+fish_kill,Northeast Atlantic,NOR,5,FALSE,Most represented country
+fish_kill,Northeast Atlantic,GBR,1,TRUE,Only K. mikimotoi 2006; need more finfish events
+fish_kill,Northeast Atlantic,DNK,1,TRUE,Only Pseudochattonella 2019
+fish_kill,Northeast Atlantic,IRL,1,TRUE,Only K. mikimotoi 2005
+fish_kill,Southwest Pacific,AUS,2,FALSE,Chattonella 1996 + G. catenatum 2012
+fish_kill,Southwest Pacific,NZL,2,FALSE,Heterosigma 1989 + Pseudochattonella 2019
+fish_kill,Eastern Central Pacific,MEX,2,FALSE,Chattonella tuna kills 2016
+fish_kill,Northeast Pacific,CAN,1,TRUE,Only Heterosigma 2001; need more events
+fish_kill,Northwest Pacific,CHN,1,TRUE,Only K. mikimotoi 2012; China has many more events
+human_health,Western Central Pacific,PHL,2,FALSE,PSP 1983 + 2013
+human_health,Central America,GTM,1,TRUE,Only PSP 1987
+human_health,Northwest Atlantic,CAN,1,TRUE,Only ASP 1987
+human_health,Central Pacific,PYF,1,TRUE,Ciguatera endemic; need more island nations
+human_health,Eastern Central Atlantic,ESP,2,FALSE,Ciguatera 2004 + DSP 1981
+human_health,Mediterranean,ITA,1,TRUE,Only Ostreopsis 2005
+human_health,Northeast Atlantic,NOR,1,TRUE,Only DSP 1984
+human_health,Northeast Atlantic,GBR,1,TRUE,Only DSP 2013 Shetland
+human_health,Western Central Atlantic,USA,3,FALSE,NSP 1987 + respiratory + ASP
+economic,Northeast Pacific,USA,2,FALSE,Pseudo-nitzschia 2015 + Alexandrium 2005
+economic,Western Central Atlantic,USA,2,FALSE,Florida tourism 2018 + Texas oysters 2011
+economic,Northeast Atlantic,ESP,1,TRUE,Only Galicia DSP closures
+economic,Southwest Pacific,AUS,1,TRUE,Only Tasmania 2012
+economic,Western Indian Ocean,OMN,1,TRUE,Only desalination 2008
+economic,Western Indian Ocean,ARE,1,TRUE,Only Cochlodinium 2008-2009
+ecological,Western Central Atlantic,USA,2,FALSE,Manatee 1996 + sea lion 1998
+ecological,Northeast Atlantic,IRL,1,TRUE,K. mikimotoi 2005
+ecological,Northeast Atlantic,GBR,1,TRUE,K. mikimotoi 2006
+ecological,Southeast Atlantic,ZAF,2,FALSE,Black tide 1994 + lobster walk-out 2022
+ecological,Northeast Atlantic,NOR,1,TRUE,Chrysochromulina 1988 ecosystem-wide
+geographic_gap,Africa,ZAF,2,FALSE,Now represented
+geographic_gap,Mediterranean,ITA,1,TRUE,Need more Med events (Greece Turkey Croatia)
+geographic_gap,Middle_East,ARE,1,TRUE,UAE represented; need more Gulf states
+geographic_gap,Middle_East,OMN,1,TRUE,Oman represented; need Saudi Arabia
+geographic_gap,Pacific_Islands,PYF,1,TRUE,Need more island nations (Fiji Kiribati PNG)
+geographic_gap,Caribbean,,0,TRUE,CRITICAL GAP: no Caribbean-specific events
+geographic_gap,South_Asia,,0,TRUE,CRITICAL GAP: no India/Bangladesh/Sri Lanka
+geographic_gap,Southeast_Asia,PHL,2,FALSE,Philippines represented; need Indonesia Malaysia
+geographic_gap,West_Africa,,0,TRUE,CRITICAL GAP: no West African events
