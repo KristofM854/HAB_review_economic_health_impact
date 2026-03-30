@@ -26,7 +26,9 @@
         "marine_offshore": "Offshore marine (>50 km from coast)",
         "estuarine": "Estuary, river mouth",
         "brackish": "Brackish water body",
-        "fjord": "Fjord system"
+        "fjord": "Fjord system",
+        "freshwater_lake": "Freshwater lake or reservoir",
+        "freshwater_river": "Freshwater river, stream, or canal"
       }
     },
     "taxonomic_class": {
@@ -89,7 +91,8 @@
         "respiratory": "Respiratory exposure (e.g., aerosolized brevetoxins)",
         "dermal": "Skin contact effects",
         "other": "Other health effects not listed above",
-        "none": "No human health impacts"
+        "none": "No human health impacts",
+        "cyanotoxin": "Illness caused by any cyanobacterial toxin via drinking water, dialysis, or recreational exposure"
       }
     },
     "ecological_impact_level": {

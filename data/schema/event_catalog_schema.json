@@ -93,7 +93,7 @@
     },
     "environment_type": {
       "type": "string",
-      "enum": ["marine_coastal", "marine_offshore", "estuarine", "brackish", "fjord"],
+      "enum": ["marine_coastal", "marine_offshore", "estuarine", "brackish", "fjord", "freshwater_lake", "freshwater_river"],
       "description": "Water body type"
     },
     "species_primary": {
@@ -197,7 +197,7 @@
     },
     "human_syndrome": {
       "type": ["string", "null"],
-      "enum": ["PSP", "DSP", "ASP", "NSP", "CFP", "AZP", "respiratory", "dermal", "other", "none", null],
+      "enum": ["PSP", "DSP", "ASP", "NSP", "CFP", "AZP", "respiratory", "dermal", "other", "none", "cyanotoxin", null],
       "description": "Type of human health syndrome"
     },
     "human_health_notes": {
