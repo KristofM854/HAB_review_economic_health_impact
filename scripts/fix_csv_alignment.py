@@ -18,7 +18,7 @@ EXPECTED_COLS = 71
 
 # Valid values for constrained fields
 VALID_EVENT_CATEGORY = {"fish_kill", "human_health", "economic", "mixed"}
-VALID_ENVIRONMENT_TYPE = {"marine_coastal", "marine_offshore", "estuarine", "brackish", "fjord", ""}
+VALID_ENVIRONMENT_TYPE = {"marine_coastal", "marine_offshore", "estuarine", "brackish", "fjord", "freshwater_lake", "freshwater_river", ""}
 VALID_TAXONOMIC_CLASS = {"Dinophyceae", "Raphidophyceae", "Dictyochophyceae",
                          "Prymnesiophyceae", "Bacillariophyceae", "Cyanophyceae", "Other", ""}
 VALID_ECOLOGICAL_IMPACT = {"fish_only", "multi_trophic", "ecosystem_wide", ""}

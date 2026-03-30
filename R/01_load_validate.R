@@ -147,10 +147,11 @@ validate_catalog <- function(df) {
   vocab_checks <- list(
     event_category    = c("fish_kill", "human_health", "economic", "mixed"),
     event_status      = c("resolved", "recurrent"),
-    environment_type  = c("marine_coastal", "marine_offshore", "estuarine", "brackish", "fjord"),
+    environment_type  = c("marine_coastal", "marine_offshore", "estuarine", "brackish", "fjord", "freshwater_lake", "freshwater_river"),
     taxonomic_class   = c("Dinophyceae", "Raphidophyceae", "Dictyochophyceae",
                           "Prymnesiophyceae", "Bacillariophyceae", "Cyanophyceae", "Other"),
     fish_affected_type = c("farmed", "wild", "both", "unknown"),
+    human_syndrome    = c("PSP", "DSP", "ASP", "NSP", "CFP", "AZP", "respiratory", "dermal", "other", "none", "cyanotoxin"),
     data_quality      = c("high", "medium", "low"),
     extraction_confidence = c("high", "medium", "low"),
     source_type       = c("peer_reviewed", "government_report", "news", "industry", "database", "personal_comm"),

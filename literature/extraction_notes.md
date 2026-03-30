@@ -336,3 +336,66 @@ This file documents ambiguities, decisions, and clarifications made during data 
 - 25.8% of fishing days lost to closures 1991-2008 (23.3% domoic acid, 2.4% PSP).
 - Categorized as economic: no fish mortality, impact is fishery closure.
 - Key methodology paper: Dyson & Huppert 2010.
+
+---
+
+## Phase 5 Extraction — Final Gap-Closing Round (2026-03-27)
+
+### Schema Vocabulary Amendments
+
+Two controlled vocabulary additions were required before extracting freshwater and cyanotoxin events:
+
+1. **`environment_type`**: Added `freshwater_lake` ("Freshwater lake or reservoir") and `freshwater_river` ("Freshwater river, stream, or canal"). Rationale: the existing enum only covered marine/estuarine/brackish/fjord environments. The Oder River (POL_2022_001, DEU_2022_001), Texas rivers (USA_2001_002), and cyanotoxin events (BRA_1996_001, AUS_1979_001, USA_2014_001) all occur in purely freshwater systems that do not fit any existing category. These were added to both `controlled_vocabularies.json`, `event_catalog_schema.json`, the R validator (`01_load_validate.R`), and the Python CSV validator (`fix_csv_alignment.py`).
+
+2. **`human_syndrome`**: Added `cyanotoxin` ("Illness caused by any cyanobacterial toxin via drinking water, dialysis, or recreational exposure"). Rationale: the existing syndrome enum covers marine shellfish toxin syndromes (PSP, DSP, ASP, NSP, CFP, AZP) and exposure routes (respiratory, dermal), but cyanobacterial toxin exposure via drinking water or dialysis does not fit any of these categories. The Caruaru (microcystin via hemodialysis), Palm Island (cylindrospermopsin via drinking water), and Toledo (microcystin in finished water) events all require this new value.
+
+### Akashiwo sanguinea — Wildlife Mortality Classification
+
+Decision: Classify *Akashiwo sanguinea* events as `fish_affected_type: unknown` rather than creating a new wildlife-specific category. The surfactant-mediated seabird mortality is fundamentally different from ichthyotoxicity — A. sanguinea produces foam that destroys feather waterproofing, causing hypothermia and drowning in seabirds. No fish kills are associated with these events.
+
+Workaround: Seabird mortality is recorded in `wildlife_mortality: TRUE`, `wildlife_species_affected` (listing species and counts), and `fish_mortality_notes` (explaining that impact is on seabirds not fish). The `event_category` is set to `mixed` rather than `fish_kill` to reflect the wildlife/ecological nature of the impact. This avoids schema changes while preserving the data accurately.
+
+### Aureococcus/Aureoumbra — Bivalve Mortality Classification
+
+Decision: Record bivalve mortality (bay scallops, blue mussels) in `fish_species_affected` with a clarifying note in `fish_mortality_notes` rather than creating a new field. Brown tide impacts are primarily on bivalves (feeding inhibition, recruitment failure) and seagrass (light limitation), not finfish. The `fish_affected_type` is set to `unknown` since no finfish mortality occurs.
+
+Rationale: Creating a separate `invertebrate_species_affected` field would require schema changes propagated across all validation scripts and analysis code. The existing fields adequately capture the information when paired with explanatory notes. The `benthic_impact: TRUE` flag captures the ecosystem-level effect.
+
+### Caruaru Death Toll Discrepancy
+
+Three primary sources report different death tolls for the 1996 Caruaru hemodialysis disaster:
+- **Jochimsen et al. (1998, NEJM)**: Reports 50 deaths at time of writing (early 1998)
+- **Pouria et al. (1998, Lancet)**: Reports 60 deaths
+- **Carmichael et al. (2001, EHP)**: Reports 52 deaths attributed to "Caruaru syndrome" as of December 1996
+
+Decision: Use **52** as the catalog value (`human_deaths: 52`). Rationale: Carmichael et al. (2001) provides the most carefully defined figure, specifically attributing deaths to "Caruaru syndrome" with chemical and biological confirmation of cyanotoxin involvement. The Jochimsen figure (50) was preliminary; the Pouria figure (60) may include deaths from other causes in the same patient cohort. All three sources are cited in `source_dois_secondary`.
+
+### Oder River Tonnage Discrepancy
+
+Two estimates exist for total fish mortality in the 2022 Oder River disaster:
+- **Confirmed**: 360 tonnes (based on collected carcasses; widely cited including Wikipedia)
+- **Estimated maximum**: Up to 1,000 tonnes (IGB factsheet estimate based on population surveys)
+
+Decision: Use **360** as `fish_killed_tonnes` with `fish_killed_tonnes_qualifier: minimum`. The 1,000-tonne high estimate is recorded in `fish_mortality_notes` and `notes`. Rationale: 360 tonnes is the confirmed minimum based on physical collection; 1,000 tonnes is a modeled estimate with greater uncertainty. Using the confirmed figure with a `minimum` qualifier is consistent with our general approach of recording the most conservative defensible number.
+
+### Nodularia Baltic Sea — Multi-Country Recurrent Entry
+
+Decision: Create **SWE_1987_001** as the primary entry for the Baltic Sea *Nodularia spumigena* recurrent summer bloom, anchored to Sweden as the most documented country with the longest monitoring record.
+
+Rationale: The Baltic Nodularia bloom is a multi-country annual phenomenon affecting Sweden, Finland, Germany, Poland, Denmark, Estonia, Latvia, and Lithuania. Creating separate entries for each country would produce 8+ rows for what is essentially a single interconnected bloom system. Sweden was chosen as the anchor country because:
+- Swedish monitoring programs (SMHI) have the longest continuous record
+- Swedish beach closures are the most consistently documented
+- Key toxicological studies (Sipiä, Kankaanpää) were conducted in Finnish/Swedish waters
+
+The multi-country scope is noted in `event_name` ("Baltic Sea Nodularia spumigena recurrent summer blooms") and `notes`. Year 1987 was selected as representative of the period when nodularin was first confirmed as a significant environmental toxin, though blooms have been documented since the 1970s.
+
+### Remaining Literature Gaps — Accepted as Manuscript Limitations
+
+The following geographic gaps were investigated during this final search round and confirmed as genuine literature gaps:
+
+- **West Africa** (beyond Morocco MAR_1994_001): No documented catastrophic HAB events with quantified economic or health impacts found in English-language literature.
+- **East Africa**: No documented catastrophic HAB events with quantified impacts. Some Pyrodinium occurrences reported but without quantitative data.
+- **Russia/Arctic**: Limited documentation accessible in English. Some events known (e.g., White Sea, Kamchatka) but not quantified to catalog threshold.
+- **Bangladesh/Sri Lanka**: HAB occurrences reported in monitoring literature but no catastrophic events with quantified economic or health data meeting inclusion criteria.
+
+Decision: No further searching warranted. These gaps are accepted as manuscript limitations and will be noted in the review's discussion section. The catalog now covers 32 countries across all major HAB-affected regions where quantified impact data exists in the published literature.

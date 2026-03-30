@@ -47,3 +47,32 @@ doi,title,first_author,year,status,events_extracted,extraction_date,notes
 10.1016/j.hal.2020.101843,"Mediterranean HABs (additional — Morocco)",Zingone,2021,extracted,1,2026-03-26,MAR_1994_001
 10.1016/j.hal.2020.101924,"Philippines/SE Asia HABs (additional)",Yñiguez,2021,extracted,2,2026-03-26,"MYS_2005_001; IDN_1988_001"
 10.1016/j.hal.2009.11.003,"Razor clam closures Pacific coast WA",Dyson,2010,extracted,1,2026-03-26,USA_2002_001
+10.1371/journal.pone.0004550,"Mass stranding of marine birds caused by surfactant-producing red tide",Jessup,2009,extracted,1,2026-03-27,USA_2007_001
+10.1898/10-32.1,"Summary of birds killed by HAB south Washington north Oregon 2009",Phillips,2011,extracted,1,2026-03-27,USA_2009_001; PDF needed
+10.3354/meps12253,"Initiation and development of Akashiwo sanguinea bloom",Du,2016,reference_only,0,2026-03-27,Supporting oceanographic context for Akashiwo events; PDF needed
+10.5670/oceanog.2018.111,"GlobalHAB programme for harmful algal blooms",Berdalet,2018,reference_only,0,2026-03-27,Background on non-traditional HAB impacts
+10.1016/j.hal.2011.10.013,"Ecosystem disruptive brown tide Aureococcus and Aureoumbra",Gobler,2012,extracted,2,2026-03-27,"USA_1985_001; USA_1990_001; review covering both species"
+10.4319/lo.1997.42.5_part_2.1023,"Aureococcus causes and ecological consequences brown tides",Bricelj,1997,extracted,1,2026-03-27,USA_1985_001; PDF needed
+10.1111/j.0022-3646.1997.01042.x,"Description of Aureoumbra lagunensis gen et sp nov",DeYoe,1997,reference_only,0,2026-03-27,Taxonomic description supporting USA_1990_001; PDF needed
+10.2307/1353236,"Decline and recovery of Texas brown tide Laguna Madre",Buskey,2001,extracted,1,2026-03-27,USA_1990_001; PDF needed
+10.1016/S0025-326X(00)00167-4,"Brown tides and mariculture Saldanha Bay South Africa",Probyn,2001,extracted,1,2026-03-27,ZAF_2001_001; PDF needed
+10.30897/ijegeo.906946,"Mucilage problem Sea of Marmara recent outbreak",Savun-Hekimoglu,2021,extracted,1,2026-03-27,TUR_2021_001; open access
+10.30897/ijegeo.954059,"Pelagic and benthic mucilage Sea of Marmara",Balkis-Ozdelice,2021,reference_only,0,2026-03-27,Supporting benthic impact data for TUR_2021_001; open access
+10.3390/toxins15060403,"Oder River fish kill 2022 expert assessment",Kreibich,2023,extracted,2,2026-03-27,"POL_2022_001; DEU_2022_001; open access"
+no-doi-igb-oder-2022,"IGB factsheet fish kill in the Oder",IGB,2022,reference_only,0,2026-03-27,Supporting data for POL_2022_001 and DEU_2022_001; government factsheet
+10.1093/plankt/fbq079,"Decade of Prymnesium parvum blooms in Texas",Roelke,2011,reference_only,0,2026-03-27,Supporting context for USA_2001_002; open access
+10.1111/j.1752-1688.2009.00387.x,"Prymnesium parvum the Texas experience",Southard,2010,extracted,1,2026-03-27,USA_2001_002; PDF needed
+10.1056/NEJM199803263381304,"Liver failure and death after microcystin exposure Caruaru",Jochimsen,1998,extracted,1,2026-03-27,BRA_1996_001
+10.1016/S0140-6736(97)12285-1,"Fatal microcystin intoxication haemodialysis unit Caruaru",Pouria,1998,reference_only,0,2026-03-27,Supporting source for BRA_1996_001; reports 60 deaths
+10.1289/ehp.01109663,"Human fatalities from cyanobacteria chemical biological evidence",Carmichael,2001,reference_only,0,2026-03-27,Supporting source for BRA_1996_001; 52 deaths definitive count
+10.1002/tox.10103,"Palm Island mystery disease 20 years on cylindrospermopsin",Griffiths,2003,extracted,1,2026-03-27,AUS_1979_001; PDF needed
+10.1128/aem.50.5.1292-1295.1985,"Severe hepatotoxicity from Cylindrospermopsis raciborskii",Hawkins,1985,reference_only,0,2026-03-27,Supporting source for AUS_1979_001; identifies causative species
+10.1016/0041-0101(83)90151-4,"Outbreak hepato-enteritis Palm Island mystery disease",Bourke,1983,reference_only,0,2026-03-27,Original clinical description AUS_1979_001; PDF needed
+10.1021/acs.est.7b00856,"Lake Erie Microcystis bloom 2014 Toledo water shutdown",Steffen,2017,extracted,1,2026-03-27,USA_2014_001; PDF needed
+no-doi-jetoo-toledo-2015,"Toledo drinking water crisis lessons for water security",Jetoo,2015,reference_only,0,2026-03-27,Policy analysis supporting USA_2014_001
+10.2216/i0031-8884-40-3-268.1,"Nodularin analyses Nodularia spumigena Baltic Sea 1999",Kankaanpaa,2001,extracted,1,2026-03-27,SWE_1987_001; PDF needed
+10.1006/eesa.2002.2222,"Bioaccumulation nodularin flounder mussels Baltic Sea",Sipia,2002,reference_only,0,2026-03-27,Supporting food web data for SWE_1987_001; PDF needed
+10.5697/oc.55-4.839,"Cyanobacteria and cyanotoxin Southern Baltic Proper",Mazur-Marzec,2013,reference_only,0,2026-03-27,Long-term monitoring data supporting SWE_1987_001
+10.1023/A:1011934903932,"Transfer of nodularin to copepod Eurytemora via Nodularia",Sipia,2001,reference_only,0,2026-03-27,Trophic transfer data supporting SWE_1987_001; PDF needed
+10.4319/lo.2000.45.3.0716,"Cyanobacterial blooms Baltic Sea natural or human-induced",Bianchi,2000,reference_only,0,2026-03-27,Paleoecological context for SWE_1987_001
+10.1579/0044-7447(2007)36[195:ECOCIT]2.0.CO;2,"Ecosystem consequences of cyanobacteria northern Baltic Sea",Karjalainen,2007,reference_only,0,2026-03-27,Food web effects of Nodularia supporting SWE_1987_001; PDF needed
