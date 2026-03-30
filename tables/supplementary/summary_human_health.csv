@@ -1,0 +1,18 @@
+"event_id","year","country_name","species_primary","human_syndrome","human_cases","human_deaths"
+"BRA_1996_001",1996,"Brazil","Microcystis aeruginosa","cyanotoxin",116,52
+"GTM_1987_001",1987,"Guatemala","Pyrodinium bahamense","PSP",187,26
+"PHL_1983_001",1983,"Philippines","Pyrodinium bahamense","PSP",21,21
+"IDN_1988_001",1988,"Indonesia","Pyrodinium bahamense","PSP",427,17
+"CAN_1987_001",1987,"Canada","Pseudo-nitzschia multiseries","ASP",107,4
+"MAR_1994_001",1994,"Morocco","Gymnodinium catenatum","PSP",23,4
+"PHL_2013_001",2013,"Philippines","Pyrodinium bahamense","PSP",31,2
+"NIC_2005_001",2005,"Nicaragua","Pyrodinium bahamense","PSP",45,1
+"ESP_1981_001",1981,"Spain","Dinophysis acuta","DSP",5000,0
+"PYF_2007_001",2007,"French Polynesia","Gambierdiscus toxicus","CFP",500,0
+"ITA_2005_001",2005,"Italy","Ostreopsis ovata","respiratory",209,0
+"AUS_1979_001",1979,"Australia","Cylindrospermopsis raciborskii","cyanotoxin",149,0
+"NOR_1984_001",1984,"Norway","Dinophysis acuta","DSP",100,0
+"GBR_2013_001",2013,"United Kingdom","Dinophysis acuta","DSP",70,0
+"USA_1987_001",1987,"United States","Karenia brevis","NSP",48,0
+"ESP_2004_001",2004,"Spain","Gambierdiscus excentricus","CFP",12,0
+"CRI_1989_001",1989,"Costa Rica","Pyrodinium bahamense","PSP",10,0
