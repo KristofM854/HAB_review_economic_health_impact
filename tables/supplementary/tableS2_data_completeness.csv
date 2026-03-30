@@ -1,0 +1,76 @@
+"event_id","year","category","has_econ_usd","has_fish_tonnes","has_lat_lon","has_human_cases","extraction_confidence","verification_status","needs_attention"
+"JPN_1972_001",1972,"fish_kill","Y","N","Y","Y","high","verified",FALSE
+"NOR_1988_001",1988,"mixed","Y","N","Y","Y","high","verified",FALSE
+"NOR_1991_001",1991,"fish_kill","Y","Y","Y","N","medium","verified",FALSE
+"NOR_2001_001",2001,"fish_kill","N","Y","Y","Y","medium","verified",TRUE
+"CHL_2016_001",2016,"fish_kill","Y","Y","Y","Y","high","verified",FALSE
+"USA_2018_001",2018,"mixed","N","N","N","N","high","verified",FALSE
+"NOR_2019_001",2019,"fish_kill","Y","Y","Y","Y","high","verified",FALSE
+"NOR_2025_001",2025,"fish_kill","N","Y","Y","Y","high","verified",TRUE
+"CHL_1988_001",1988,"fish_kill","Y","Y","Y","Y","2026-03-26","First HAB fish-killing event in Chilean salmon industry; 100,000 cells/mL max density",FALSE
+"NZL_1989_001",1989,"fish_kill","Y","N","Y","Y","2026-03-26","First record of Heterosigma in New Zealand; gill damage and asphyxiation mechanism confirmed",FALSE
+"KOR_1995_001",1995,"fish_kill","Y","N","Y","Y","2026-03-26","First major M. polykrikoides bloom in Korea; recurred almost annually thereafter",FALSE
+"AUS_1996_001",1996,"fish_kill","Y","Y","Y","Y","2026-03-26","Bloom at 66,000 cells/L; triggered relocation of all tuna farms to offshore sectors",FALSE
+"JPN_2010_001",2010,"fish_kill","Y","N","Y","Y","2026-03-26","Chattonella blooms shifted from Seto Inland Sea to Yatsushiro Sea in recent decades",FALSE
+"CHN_2012_001",2012,"fish_kill","Y","N","Y","Y","2026-03-26","Largest K. mikimotoi economic loss worldwide; Fujian produces >75% of China's farmed abalone",FALSE
+"CHL_2021_001",2021,"fish_kill","N","Y","Y","Y","2026-03-26","Intense and widespread H. akashiwo bloom; among the largest in Chilean Patagonian fjords",TRUE
+"KOR_2003_001",2003,"fish_kill","Y","N","Y","Y","2026-03-26","Recurring M. polykrikoides event; much smaller than 1995",FALSE
+"USA_2015_001",2015,"economic","Y","N","Y","Y","2026-03-26","Driven by unprecedented marine heatwave; Dungeness crab and razor clam fisheries closed",FALSE
+"GTM_1987_001",1987,"human_health","N","N","N","Y","high","unverified",FALSE
+"PHL_1983_001",1983,"human_health","Y","N","Y","Y","medium","unverified",FALSE
+"CAN_1987_001",1987,"human_health","N","N","Y","Y","high","unverified",FALSE
+"PYF_2007_001",2007,"human_health","N","N","Y","Y","2026-03-26","GAP 1 + GAP 4; representative year for chronic endemic burden; true incidence likely 10-50x reported",FALSE
+"ESP_2004_001",2004,"human_health","N","N","Y","Y","2026-03-26","GAP 1 + GAP 4; first European ciguatera; ongoing recurrence ~12 cases/year since 2004",FALSE
+"USA_2005_001",2005,"economic","Y","N","Y","Y","2026-03-26","GAP 2 economic; largest New England PSP event since 1972; recurring annual problem",FALSE
+"ITA_2005_001",2005,"human_health","N","N","Y","Y","2026-03-26","GAP 1 + GAP 4 Mediterranean; first major Ostreopsis health event in temperate waters",FALSE
+"ARE_2008_001",2008,"mixed","N","N","Y","Y","medium","unverified",FALSE
+"USA_1996_001",1996,"mixed","N","N","Y","Y","2026-03-26","GAP 3 ecological; 149 manatees = ~10% of endangered population; brevetoxin in lungs and stomach",FALSE
+"IRL_2005_001",2005,"mixed","N","N","Y","Y","2026-03-26","GAP 3 ecological + GAP 4 Europe; exceptional bloom in scale and persistence",FALSE
+"GBR_2006_001",2006,"mixed","N","N","Y","Y","medium","unverified",FALSE
+"ZAF_1994_001",1994,"mixed","N","N","Y","Y","medium","unverified",FALSE
+"ZAF_2022_001",2022,"economic","N","Y","Y","Y","low","unverified",TRUE
+"MEX_2016_001",2016,"fish_kill","Y","N","Y","Y","2026-03-26","GAP 4 Latin America; first ichthyotoxic bloom in region; linked to marine heatwave anomalies",FALSE
+"ESP_1981_001",1981,"human_health","N","N","Y","Y","2026-03-26","GAP 1 + GAP 4 Mediterranean/Atlantic; DSP is leading HAB threat to European shellfish industry",FALSE
+"USA_1998_001",1998,"human_health","N","N","Y","Y","2026-03-26","GAP 3 ecological; 400+ sea lions killed; discovery of DA pathway through marine food web to mammals",FALSE
+"NOR_1984_001",1984,"human_health","N","N","Y","Y","2026-03-26","GAP 1 human_health; first DSP event in Norway; triggered long-term monitoring program",FALSE
+"USA_1987_001",1987,"human_health","Y","N","Y","Y","2026-03-26","GAP 1 human_health + GAP 2 economic; first G. breve bloom in NC; large persistent bloom fall/winter 1987-88",FALSE
+"PHL_2013_001",2013,"human_health","N","N","Y","Y","2026-03-26","GAP 1 + GAP 4; Philippines has highest global PSP case count; 2555 cases and 165 deaths 1985-2018",FALSE
+"GBR_2013_001",2013,"human_health","Y","N","Y","Y","2026-03-26","GAP 1 + GAP 2; DSP is leading biotoxin threat to Scottish shellfish industry; ~15% annual production loss",FALSE
+"USA_2011_001",2011,"economic","Y","N","Y","Y","medium","unverified",FALSE
+"CAN_2001_001",2001,"fish_kill","N","Y","Y","Y","2026-03-26","GAP 4 Canada; recurring H. akashiwo problem for BC salmon aquaculture",TRUE
+"AUS_2012_001",2012,"economic","Y","N","Y","Y","2026-03-26","GAP 2 economic; largest toxic bloom on record in Tasmania; invasive species via ballast water",FALSE
+"OMN_2008_001",2008,"economic","N","N","N","Y","medium","unverified",TRUE
+"ESP_2009_001",2009,"economic","N","N","N","Y","low","unverified",TRUE
+"USA_2018_002",2018,"economic","Y","N","Y","Y","medium","unverified",FALSE
+"JPN_1980_001",1985,"fish_kill","Y","N","Y","Y","2026-03-26","GAP 5 quantification; cumulative impact from recurring events; year set as mid-decade representative",FALSE
+"NOR_1998_001",1998,"fish_kill","Y","N","Y","Y","2026-03-26","From GlobalHAB 2023 Table 1.1; first P. verruculosa event in Norway",FALSE
+"DNK_2019_001",2019,"fish_kill","Y","N","Y","Y","2026-03-26","From GlobalHAB 2023 Table 1.1; co-occurred with regional Pseudochattonella blooms",FALSE
+"NZL_2019_001",2019,"fish_kill","N","N","Y","Y","medium","unverified",TRUE
+"CHL_2021_002",2021,"fish_kill","Y","Y","Y","Y","2026-03-26","Additional data from Patagonian fjord H. akashiwo event; economic estimate from industry reports",FALSE
+"USA_2005_002",2005,"human_health","Y","N","Y","Y","2026-03-26","GAP 1 + GAP 5; quantified health methodology; counterfactual analysis of ER visits vs. K. brevis cell counts",FALSE
+"MEX_2016_002",2016,"fish_kill","N","N","Y","Y","medium","unverified",TRUE
+"MYS_2014_001",2014,"fish_kill","Y","N","Y","Y","high","unverified",FALSE
+"CHN_1989_001",1989,"fish_kill","Y","N","Y","Y","2026-03-26","Task 2 China; worst HAB event in Bohai Sea during 1980s",FALSE
+"CHN_1998_001",1998,"fish_kill","Y","N","Y","Y","2026-03-26","Task 2 China; first documented K. mikimotoi bloom in China; triggered monitoring expansion",FALSE
+"CHN_2015_001",2015,"economic","N","N","Y","Y","2026-03-26","Task 2 China; unique infrastructure impact — nuclear power plant cooling water blockage; P. globosa dominant HAB in Beibu Gulf since 2011",TRUE
+"NIC_2005_001",2005,"human_health","N","N","Y","Y","2026-03-26","Task 3 Caribbean; first Caribbean PSP event in catalog",FALSE
+"CRI_1989_001",1989,"human_health","N","N","Y","Y","2026-03-26","Task 3 Caribbean/Central America; limited case data; extraction confidence medium",FALSE
+"IND_2021_001",2021,"mixed","Y","Y","Y","Y","high","unverified",FALSE
+"MAR_1994_001",1994,"human_health","N","N","Y","Y","2026-03-26","Task 5 West Africa; first Morocco/NW Africa event in catalog; G. catenatum linked to Iberian populations",FALSE
+"MYS_2005_001",2005,"fish_kill","N","N","Y","N","2026-03-26","Task 6 SE Asia; first Sabah HAB event in catalog; M. polykrikoides recurred 2006 and 2023",TRUE
+"IDN_1988_001",1988,"human_health","N","N","Y","Y","2026-03-26","Task 6 SE Asia; first Indonesia event; exact year approximate — cumulative data from 1988-1999 period",FALSE
+"USA_2002_001",2002,"economic","Y","N","Y","Y","2026-03-26","Task 7 economic; razor clam closure methodology: survey of 240 parties; expenditure-based valuation",FALSE
+"USA_2007_001",2007,"mixed","N","N","Y","Y","medium","unverified",FALSE
+"USA_2009_001",2009,"mixed","N","N","Y","Y","high","unverified",FALSE
+"USA_1985_001",1985,"economic","Y","N","Y","Y","medium","unverified",FALSE
+"USA_1990_001",1990,"mixed","N","N","Y","Y","low","unverified",TRUE
+"TUR_2021_001",2021,"mixed","N","N","Y","Y","medium","unverified",FALSE
+"POL_2022_001",2022,"fish_kill","N","Y","Y","Y","medium","unverified",TRUE
+"DEU_2022_001",2022,"fish_kill","N","Y","Y","Y","medium","unverified",TRUE
+"USA_2001_002",2001,"fish_kill","Y","N","Y","Y","medium","unverified",FALSE
+"BRA_1996_001",1996,"human_health","N","N","Y","Y","high","unverified",FALSE
+"AUS_1979_001",1979,"human_health","N","N","Y","Y","medium","unverified",FALSE
+"USA_2014_001",2014,"economic","Y","N","Y","Y","medium","unverified",FALSE
+"SWE_1987_001",1987,"mixed","N","N","Y","Y","medium","unverified",FALSE
+"ZAF_2001_001",2001,"economic","N","N","Y","Y","medium","unverified",TRUE
+"USA_2012_001",2012,"mixed","N","N","Y","Y","medium","unverified",FALSE
