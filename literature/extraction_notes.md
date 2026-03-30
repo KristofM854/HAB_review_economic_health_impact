@@ -399,3 +399,87 @@ The following geographic gaps were investigated during this final search round a
 - **Bangladesh/Sri Lanka**: HAB occurrences reported in monitoring literature but no catastrophic events with quantified economic or health data meeting inclusion criteria.
 
 Decision: No further searching warranted. These gaps are accepted as manuscript limitations and will be noted in the review's discussion section. The catalog now covers 32 countries across all major HAB-affected regions where quantified impact data exists in the published literature.
+
+---
+
+## Phase 5 Addendum — USA_2012_001 and PDF Extraction Pass (2026-03-30)
+
+### USA_2012_001 — Indian River Lagoon 2012 Aureoumbra Brown Tide
+
+Added as 15th event in the gap-closing round. *Aureoumbra lagunensis* bloom in Indian River Lagoon, Florida — the first confirmed range expansion of this species outside Texas. Chlorophyll-a reached ~200 µg/L (20× historical mean). Classified as `mixed` (ecological disruption primary; >30 fish kill reports in Mosquito Lagoon from near-hypoxic conditions). Primary source: Gobler et al. 2013 (DOI: 10.1016/j.hal.2013.04.004). PDF needed for full quantitative extraction.
+
+### Phase 5 PDF Extraction Pass (2026-03-30)
+
+No PDFs were found in `literature/pdfs/`. PDF extraction pass skipped. The following DOIs require PDF upload before extraction confidence can be upgraded from `low` for the affected events:
+
+- 10.3354/meps12253 → USA_2009_001 (Akashiwo WA/OR seabird mortality)
+- 10.1016/S0140-6736(97)12285-1 → BRA_1996_001 (Caruaru Lancet paper)
+- 10.1016/S0300-483X(02)00491-2 → BRA_1996_001 (Azevedo toxicology)
+- 10.1016/j.hal.2024.102644 → POL_2022_001, DEU_2022_001 (Oder River Mora et al.)
+- 10.1002/tox.10103 → AUS_1979_001 (Palm Island review)
+- 10.4319/lo.1997.42.5_part_2.1023 → USA_1985_001 (Aureococcus Long Island)
+- 10.1111/j.1752-1688.2009.00387.x → USA_2001_002 (Prymnesium Texas)
+- 10.1016/j.hal.2011.10.013 → USA_1985_001, USA_1990_001, USA_2012_001, ZAF_2001_001 (Gobler & Sunda brown tide review)
+- 10.1016/j.hal.2013.04.004 → USA_2012_001 (Gobler et al. Florida brown tide)
+
+### Phase 5 PDF Extraction Results (2026-03-30)
+
+8 PDFs were found in `literature/pdfs/` and successfully matched to catalog events. Key findings:
+
+**1. Jones et al. 2017 (10.3354/meps12253) → USA_2009_001**
+- Confirms ~10,500 total carcass deposition via Bayesian deposition model (two events: northern ~8,460 scoters, southern ~1,292 murres)
+- Largest marine bird MME ever definitively ascribed to a single HAB
+- Event dates: Sep 7 to Nov 9, 2009; bloom landfall concurrent with mortality
+- Upgraded extraction_confidence to `high`; source_doi_primary updated to this paper
+
+**2. Pouria et al. 1998 (10.1016/S0140-6736(97)12285-1) → BRA_1996_001**
+- Reports 60 deaths (higher than our 52); all 126 patients symptomatic; 108 had liver injury
+- Microcystins confirmed in serum (80-133 ng/mL) by HPLC-DAD, PPIA, and ELISA
+- Decision: retain 52 deaths (Carmichael/Azevedo definition) but note Pouria's 60 in notes
+
+**3. Azevedo et al. 2002 (10.1016/S0300-483X(02)00491-2) → BRA_1996_001**
+- Confirms 116 (89%) of 131 patients symptomatic; 52 deaths as "Caruaru Syndrome"
+- Microcystin-YR, -LR, -AR identified in liver tissue; average 223 ng/g in 52 liver samples
+- Cylindrospermopsin found in water treatment resins (19.7 µg/g) but NOT in patient liver tissue
+- Estimated microcystin concentration in dialysis water ~19.5 µg/L (20× WHO guideline)
+- Intoxication period: Feb 13-17, 1996; first death Feb 20
+
+**4. Mora et al. 2024 (10.1016/j.hal.2024.102644) → POL_2022_001, DEU_2022_001**
+- Confirms P. parvum by molecular phylogenetics (18S rRNA, ITS); B-type prymnesin producer
+- Max cell density: 141 × 10^6 cells/L at Hohenwutzen on Aug 16, 2022; Chl-a >300 µg/L
+- B-type prymnesins (PRM-B1 and saccharide variants) confirmed by LC-HRMS in both environmental samples and clonal cultures
+- Fish stock decline 53-67% (Wolter et al. 2023 cited)
+- Added max_cell_density and species_notes to both POL and DEU entries
+
+**5. Griffiths & Saker 2003 (10.1002/tox.10103) → AUS_1979_001**
+- Confirms Nov 1979 Palm Island incident; >100 children hospitalized
+- Copper sulfate treatment of bloom caused cell lysis releasing cylindrospermopsin into water supply
+- CYN: potent hepatotoxin, MW 415, inhibits protein synthesis; also produced by A. ovalisporum, R. curvata, U. natans
+- Species now accepted as Raphidiopsis raciborskii
+- Upgraded extraction_confidence: low → medium
+
+**6. Bricelj & Lonsdale 1997 (10.4319/lo.1997.42.5_part_2.1023) → USA_1985_001**
+- Confirms first Aureococcus blooms summer 1985; cell densities exceeded 2.5 × 10^6 cells/mL (= 2.5 × 10^9 cells/L)
+- "Multi-million dollar scallop industry" collapsed; $2M/yr losses (Kahn & Rockel 1988) — confirms our existing economic figure
+- Bivalve feeding inhibition at ~2 × 10^5 cells/mL; mortalities at ~10^6 cells/mL
+- Seagrass (Zostera marina) die-off via light attenuation
+- Upgraded extraction_confidence: low → medium
+
+**7. Southard et al. 2010 (10.1111/j.1752-1688.2009.00387.x) → USA_2001_002**
+- Total Texas P. parvum impact 1985-2008: 153 fish kills, 34 million fish, $13M economic losses
+- 33 water bodies across 5 river basins affected
+- Dundee hatchery lost 14.2M fry in 2001; economic loss to 3 counties: $2.8M (2001) and $1.1M (2003)
+- Added $13M total economic loss figure; upgraded extraction_confidence: low → medium
+
+**8. Gobler & Sunda 2012 (10.1016/j.hal.2011.10.013) → USA_1985_001, USA_1990_001, USA_2012_001, ZAF_2001_001**
+- Confirms Aureoumbra bloom Jan 1990 to fall 1997 (8 years); cell densities 0.5-5 × 10^6 cells/mL
+- Confirms Aureococcus blooms in Saldanha Bay, SA (Probyn et al. 2001, 2010) — no quantified economic data available for ZAF_2001_001
+- Added start_date and peak cell density (5 × 10^9 cells/L) for USA_1990_001
+
+**Summary of confidence upgrades:**
+- USA_2009_001: low → high (Jones et al. 2017 provides definitive deposition model)
+- AUS_1979_001: low → medium (Griffiths & Saker 2003 review)
+- USA_1985_001: low → medium (Bricelj & Lonsdale 1997 confirms economic figures)
+- USA_2001_002: low → medium (Southard et al. 2010 provides comprehensive TX data)
+
+**No discrepancies requiring `disputed` status.** The Caruaru death toll discrepancy (50/52/60) was already documented and the existing value of 52 is confirmed as appropriate by the Azevedo 2002 PDF.
