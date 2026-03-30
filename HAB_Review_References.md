@@ -380,6 +380,10 @@
     - DOI: 10.1016/S0025-326X(00)00167-4
     - *Documents Aureococcus brown tide in South Africa affecting mussel aquaculture. ⚠️ PDF NEEDED*
 
+91b. **Gobler CJ, Koch F, Kang Y, et al.** (2013). Expansion of harmful brown tides caused by the pelagophyte, *Aureoumbra lagunensis* DeYoe et Stockwell, to the US east coast. *Harmful Algae* 27:29-41.
+     - DOI: 10.1016/j.hal.2013.04.004
+     - *Documents first A. lagunensis bloom outside Texas in Indian River Lagoon, Florida 2012; chlorophyll ~200 µg/L; genetically confirmed; range expansion. ⚠️ PDF NEEDED*
+
 ---
 
 ## 17. SEA OF MARMARA MUCILAGE 2021
@@ -565,7 +569,7 @@
 | Freshwater HABs (context) | 6 |
 | Recent comprehensive reviews | 2 |
 | Akashiwo sanguinea seabird events | 4 |
-| Aureococcus/Aureoumbra brown tides | 5 |
+| Aureococcus/Aureoumbra brown tides | 6 |
 | Sea of Marmara mucilage 2021 | 2 |
 | Prymnesium parvum — Oder River 2022 | 2 |
 | Prymnesium parvum — Texas rivers | 2 |
@@ -577,7 +581,7 @@
 | Aureococcus South Africa (cross-ref) | 0 |
 | Cyanobacterial toxicology (supporting) | 2 |
 | Globalisation & freshwater HABs (cross-refs) | 2 |
-| **TOTAL** | **121** |
+| **TOTAL** | **122** |
 
 ---
 

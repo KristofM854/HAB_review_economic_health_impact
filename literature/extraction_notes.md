@@ -399,3 +399,25 @@ The following geographic gaps were investigated during this final search round a
 - **Bangladesh/Sri Lanka**: HAB occurrences reported in monitoring literature but no catastrophic events with quantified economic or health data meeting inclusion criteria.
 
 Decision: No further searching warranted. These gaps are accepted as manuscript limitations and will be noted in the review's discussion section. The catalog now covers 32 countries across all major HAB-affected regions where quantified impact data exists in the published literature.
+
+---
+
+## Phase 5 Addendum — USA_2012_001 and PDF Extraction Pass (2026-03-30)
+
+### USA_2012_001 — Indian River Lagoon 2012 Aureoumbra Brown Tide
+
+Added as 15th event in the gap-closing round. *Aureoumbra lagunensis* bloom in Indian River Lagoon, Florida — the first confirmed range expansion of this species outside Texas. Chlorophyll-a reached ~200 µg/L (20× historical mean). Classified as `mixed` (ecological disruption primary; >30 fish kill reports in Mosquito Lagoon from near-hypoxic conditions). Primary source: Gobler et al. 2013 (DOI: 10.1016/j.hal.2013.04.004). PDF needed for full quantitative extraction.
+
+### Phase 5 PDF Extraction Pass (2026-03-30)
+
+No PDFs were found in `literature/pdfs/`. PDF extraction pass skipped. The following DOIs require PDF upload before extraction confidence can be upgraded from `low` for the affected events:
+
+- 10.3354/meps12253 → USA_2009_001 (Akashiwo WA/OR seabird mortality)
+- 10.1016/S0140-6736(97)12285-1 → BRA_1996_001 (Caruaru Lancet paper)
+- 10.1016/S0300-483X(02)00491-2 → BRA_1996_001 (Azevedo toxicology)
+- 10.1016/j.hal.2024.102644 → POL_2022_001, DEU_2022_001 (Oder River Mora et al.)
+- 10.1002/tox.10103 → AUS_1979_001 (Palm Island review)
+- 10.4319/lo.1997.42.5_part_2.1023 → USA_1985_001 (Aureococcus Long Island)
+- 10.1111/j.1752-1688.2009.00387.x → USA_2001_002 (Prymnesium Texas)
+- 10.1016/j.hal.2011.10.013 → USA_1985_001, USA_1990_001, USA_2012_001, ZAF_2001_001 (Gobler & Sunda brown tide review)
+- 10.1016/j.hal.2013.04.004 → USA_2012_001 (Gobler et al. Florida brown tide)
