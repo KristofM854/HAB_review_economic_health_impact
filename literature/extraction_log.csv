@@ -15,18 +15,18 @@ doi,title,first_author,year,status,events_extracted,extraction_date,notes
 10.1016/j.scitotenv.2022.158967,"Chile Heterosigma 2021",NA,2022,extracted,1,2026-03-26,CHL_2021_001
 10.1007/s12562-021-01524-7,"Japan HAB control strategies",Imai,2021,extracted,0,2026-03-26,Supporting data for JPN_2010_001
 10.1289/ehp.00108s1133,"Marine algal toxins origins health effects",Van Dolah,2000,extracted,2,2026-03-26,"GTM_1987_001; ESP_1981_001"
-10.1016/j.hal.2020.101924,"Philippines HAB status",Yñiguez,2021,extracted,1,2026-03-26,PHL_1983_001
+10.1016/j.hal.2020.101776,"Philippines HAB status",Yñiguez,2021,extracted,1,2026-03-26,PHL_1983_001
 10.1056/NEJM199006213222504,"Domoic acid outbreak PEI Canada",Perl,1990,extracted,1,2026-03-26,CAN_1987_001
 10.1016/j.hal.2020.101873,"Ciguatera global review",Chinain,2021,extracted,2,2026-03-26,"PYF_2007_001; ESP_2004_001"
 10.1016/j.hal.2020.101843,"Mediterranean HAB status",Zingone,2021,extracted,1,2026-03-26,ITA_2005_001
-10.1016/j.hal.2009.08.002,"Arabian Gulf 2008-2009 Cochlodinium",Richlen,2010,extracted,1,2026-03-26,ARE_2008_001
+10.1016/j.hal.2009.08.013,"Arabian Gulf 2008-2009 Cochlodinium",Richlen,2010,extracted,1,2026-03-26,ARE_2008_001
 10.1016/j.hal.2008.11.009,"Karenia brevis Florida historical",Steidinger,2009,extracted,1,2026-03-26,USA_1996_001
-10.1016/j.hal.2009.01.001,"K. mikimotoi Scotland Ireland benthic impacts",Davidson,2009,extracted,2,2026-03-26,"IRL_2005_001; GBR_2006_001"
-10.1016/j.hal.2020.101773,"Benguela HABs eastern boundary upwelling",Pitcher,2021,extracted,2,2026-03-26,"ZAF_1994_001; ZAF_2022_001"
+10.1016/j.hal.2008.07.007,"K. mikimotoi Scotland Ireland benthic impacts",Davidson,2009,extracted,2,2026-03-26,"IRL_2005_001; GBR_2006_001"
+10.1016/j.hal.2020.101898,"Benguela HABs eastern boundary upwelling",Pitcher,2021,extracted,2,2026-03-26,"ZAF_1994_001; ZAF_2022_001"
 10.3389/fmars.2018.00454,"Baja California tuna kill Chattonella",Garcia-Mendoza,2018,extracted,1,2026-03-26,MEX_2016_001
 10.1016/j.hal.2021.101975,"US HAB status (additional extraction)",Anderson,2021,extracted,3,2026-03-26,"USA_2005_001; USA_1998_001; USA_1987_001"
 10.1016/j.hal.2021.101989,"Northern Europe HABs (additional extraction)",Karlson,2021,extracted,1,2026-03-26,NOR_1984_001
-10.5365/wpsar.2014.5.4.002,"Lethal PSP Western Samar Philippines 2013",Ching,2015,extracted,1,2026-03-26,PHL_2013_001
+10.5365/wpsar.2015.6.1.004,"Lethal PSP Western Samar Philippines 2013",Ching,2015,extracted,1,2026-03-26,PHL_2013_001
 10.1016/j.hal.2020.101912,"Dinophysis economic impacts Scotland",Davidson,2020,extracted,1,2026-03-26,GBR_2013_001
 10.1007/s11069-020-04182-7,"Florida red tide tourism economic impact",Bechard,2020,extracted,1,2026-03-26,USA_2018_002
 10.1016/j.envint.2014.03.016,"Florida red tide health costs",Hoagland,2014,extracted,1,2026-03-26,USA_2005_002
@@ -36,16 +36,16 @@ doi,title,first_author,year,status,events_extracted,extraction_date,notes
 10.1016/j.hal.2021.101975,"US HAB status (third pass)",Anderson,2021,extracted,1,2026-03-26,USA_2011_001
 10.1016/j.hal.2020.101787,"East Asia status (additional)",Sakamoto,2021,extracted,1,2026-03-26,JPN_1980_001
 10.1016/j.hal.2020.101843,"Mediterranean HABs (additional)",Zingone,2021,extracted,1,2026-03-26,ESP_2009_001
-10.1016/j.hal.2009.08.002,"Arabian Gulf Cochlodinium (additional)",Richlen,2010,extracted,1,2026-03-26,OMN_2008_001
+10.1016/j.hal.2009.08.013,"Arabian Gulf Cochlodinium (additional)",Richlen,2010,extracted,1,2026-03-26,OMN_2008_001
 10.3389/fmars.2018.00454,"Baja California tuna kill (additional)",Garcia-Mendoza,2018,extracted,1,2026-03-26,MEX_2016_002
 10.1016/j.scitotenv.2022.158967,"Chile Heterosigma 2021 (additional)",NA,2022,extracted,1,2026-03-26,CHL_2021_002
-10.1016/j.hal.2014.04.011,"Karlodinium australe Johor Strait Malaysia",Lim,2014,extracted,1,2026-03-26,MYS_2014_001
-10.1016/j.hal.2023.102515,"China HAB history recent expansion",Yu,2023,extracted,3,2026-03-26,"CHN_1989_001; CHN_1998_001; CHN_2015_001"
+10.1016/j.hal.2014.10.005,"Karlodinium australe Johor Strait Malaysia",Lim,2014,extracted,1,2026-03-26,MYS_2014_001
+10.1016/j.hal.2023.102499,"China HAB history recent expansion",Yu,2023,extracted,3,2026-03-26,"CHN_1989_001; CHN_1998_001; CHN_2015_001"
 10.1186/s13104-015-1012-4,"Nicaragua PSP outbreak 2005",NA,2015,extracted,1,2026-03-26,NIC_2005_001
 10.1289/ehp.00108s1133,"Marine algal toxins (additional — Costa Rica)",Van Dolah,2000,extracted,1,2026-03-26,CRI_1989_001
 10.1007/s44289-025-00074-5,"Noctiluca fish kill Gulf of Mannar India",Gunasekaran,2025,extracted,1,2026-03-26,IND_2021_001
 10.1016/j.hal.2020.101843,"Mediterranean HABs (additional — Morocco)",Zingone,2021,extracted,1,2026-03-26,MAR_1994_001
-10.1016/j.hal.2020.101924,"Philippines/SE Asia HABs (additional)",Yñiguez,2021,extracted,2,2026-03-26,"MYS_2005_001; IDN_1988_001"
+10.1016/j.hal.2020.101776,"Philippines/SE Asia HABs (additional)",Yñiguez,2021,extracted,2,2026-03-26,"MYS_2005_001; IDN_1988_001"
 10.1016/j.hal.2009.11.003,"Razor clam closures Pacific coast WA",Dyson,2010,extracted,1,2026-03-26,USA_2002_001
 10.1371/journal.pone.0004550,"Mass stranding of marine birds caused by surfactant-producing red tide",Jessup,2009,extracted,1,2026-03-27,USA_2007_001
 10.1898/10-32.1,"Summary of birds killed by HAB south Washington north Oregon 2009",Phillips,2011,extracted,1,2026-03-27,USA_2009_001; PDF needed

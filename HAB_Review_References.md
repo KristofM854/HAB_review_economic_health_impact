@@ -36,7 +36,7 @@
    - DOI: 10.1016/j.hal.2020.101920
 
 9. **Yñiguez AT, Maister J, Villanoy CL, et al.** (2021). Current knowledge and gaps on harmful algal blooms in the Philippines. *Harmful Algae* 102:101924.
-   - DOI: 10.1016/j.hal.2020.101924
+   - DOI: 10.1016/j.hal.2020.101776
 
 ---
 
@@ -326,7 +326,7 @@
     - DOI: 10.3390/w17131980
 
 82. **Yu Z, Song X, Gao Y** (2023). Harmful algal blooms in China: History, recent expansion, current status, and future prospects. *Harmful Algae* 129:102515.
-    - DOI: 10.1016/j.hal.2023.102515
+    - DOI: 10.1016/j.hal.2023.102499
 
 ---
 
